@@ -11,6 +11,12 @@
     text-align: center;
 }
 
+
+.card1 {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
 .app-logo {
     height: 120px;
     width: 150px;
