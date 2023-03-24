@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.bg-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Black w/opacity/see-through */
+    background-image: url("https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2023/01/shdgxsxsefgxfcxdddcccscsd-1673530998.jpg");
+    background-blend-mode: saturation;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cg {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.customer {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.customer-name {
+    font-size: 18px;
+}
+
+.customer-age {
+    font-size: 18px;
+}
+
+.customer-gender {
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.paragraph {
+    font-size: 19px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    padding: 5px;
+}
+
+
+.input-box {
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    border-radius: 7px;
+    height: 40px;
+    border: 1px solid;
+}
+
+
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.underweight {
+    color: #FFA500;
+    /* orange */
+}
+
+.normal {
+    color: #008000;
+    /* green */
+}
+
+.overweight {
+    color: #FFA500;
+    /* orange */
+}
+
+.obese {
+    color: #FF0000;
+    /* red */
+}

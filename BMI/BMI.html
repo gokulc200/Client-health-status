@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container pt-5 pb-5 d-flex flex-column align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex  align-items-center">
+                    <div class="col-12 d-md-none">
+                        <img class="customer" src="https://lovehairstyles.com/wp-content/uploads/2020/12/tp-short-haircuts-for-older-women-grey.jpg" />
+                        <div class="ml-3 mr-3 pt-3">
+                            <p>Name : Elizabeth</p>
+                            <p>Age : 68 years</p>
+                            <p>Gender : Female</p>
+                        </div>
+                    </div>
+                    <div class="col-12 d-none d-md-block">
+                        <div class="d-flex flex-row justify-content-center">
+                            <img class="customer" src="https://lovehairstyles.com/wp-content/uploads/2020/12/tp-short-haircuts-for-older-women-grey.jpg" />
+                            <div class="ml-3 mr-3 pt-3">
+                                <p>Name : Elizabeth</p>
+                                <p>Age : 68 years</p>
+                                <p>Gender : Female</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="heading">BMI Calculator💝</h1>
+        <p>(*Enter details in the below section)</p>
+        <div class="card1">
+            <label for="age" class="paragraph">Age:</label>
+            <input class="input-box" type="number" id="age" placeholder="Enter age">
+            <label for="gender" class="paragraph">Gender:</label>
+            <select id="gender" onchange="changeLabels()" class="paragraph">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <label id="weightLabel" for="weight" class="paragraph">Weight (kg):</label>
+            <input class="input-box" type="number" id="weight" placeholder="Enter weight in kg">
+            <label id="heightLabel" for="height" class="paragraph">Height (cm):</label>
+            <input class="input-box" type="number" id="height" placeholder="Enter height in cm">
+            <button class="btn bg-primary text-white" onclick="calculateBMI()">Calculate</button>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+
+</html>
