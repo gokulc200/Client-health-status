@@ -9,17 +9,28 @@
 }
 
 .customer {
-    height: 170px;
-    width: 170px;
+    height: 190px;
+    width: 190px;
     border-radius: 100px;
+}
+
+.cg {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .health-status {
     font-size: 15px;
+    color: #11e1f0;
+}
+
+.diet-color {
+    color: #fa3434;
+    font-size: 28px;
 }
 
 .card1 {
-    width: 550px;
     font-size: 18px;
     font-family: "Roboto";
 }
@@ -60,4 +71,8 @@
 
 .customer-gender {
     font-size: 15px;
+}
+
+.change-color {
+    color: #e1f011;
 }
